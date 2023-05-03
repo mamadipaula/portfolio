@@ -29,7 +29,7 @@ import {
 
 export const Home = (): JSX.Element => {
   const gihubUrl = `https://github.com/${userData.githubUser}`;
-  const portfolioUrl = `https://github.com/${userData.githubUser}/my-portfolio`;
+  const portfolioUrl = `https://github.com/${userData.githubUser}/portfolio`;
 
   return (
     <main id="home">
@@ -58,8 +58,16 @@ export const Home = (): JSX.Element => {
               projects
             </Text>
             <Text type="body1" color="grey2">
-              Discover here in this environment, created especially for you, all
-              my projects and technologies
+            Experience with Agile Methodologies.
+            Intermediate English and Intermediate Spanish.
+            Experience in building projects using HTML5, CSS3, JavaScript (ES6), React, TypeScript, NodeJs, Express,
+            SQL Database, PostgreSql, Github.
+            Experience building RESTful APIs, and consuming APIs.
+            Familiarity with good practices of version control with git, Agile methodologies, Scrum, Kanban, JIRA, Trello.
+            Domain in Semantic Web, Programming Logic, Object Oriented Programming, Functional Programming,
+            Quality, Hooks, State Management. Componentization, use of component libraries
+            UX notions, TDD with Jest, BDD with cucumber.
+            Experience with PHP, MySql workbench, database administration
             </Text>
             <HeaderButtonsArea>
               <Button as="a" type="primary" href="#projects">
@@ -93,12 +101,6 @@ export const Home = (): JSX.Element => {
             <ProjectsAreaSocialMediaMessage>
               <Text as="h2" type="heading4" color="grey4">
                 My projects
-              </Text>
-              <Text as="p" type="body1" color="grey2">
-                Some of my{" "}
-                <Text as="span" color="brand5">
-                  side projects
-                </Text>
               </Text>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
